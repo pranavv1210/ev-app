@@ -20,7 +20,7 @@ export default function Waitlist() {
             </div>
             
             <h2 className="font-display-lg-mobile md:font-display-lg text-[10vw] md:text-[5vw] leading-[1.1] tracking-tighter text-primary mb-8">
-              Help shape the future of Bengaluru Mobility by <span className="gradient-text italic">Yaatra Ev</span>
+              Help shape the future of <span className="gradient-text italic">Bengaluru Mobility by Yaatra EV </span>
             </h2>
             
             <p className="text-xl md:text-2xl text-text-secondary mb-8 font-light">Join the early access list today.</p>

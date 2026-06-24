@@ -37,8 +37,8 @@ export default function Hero() {
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
           className="font-display-lg-mobile md:font-display-lg text-[12vw] md:text-[6vw] leading-[1.1] tracking-tighter text-primary mb-8 max-w-5xl"
         >
-          The Future of Bengaluru Mobility is <br />
-          <span className="gradient-text italic">Electric.</span>
+          Help shape the future of <br />
+          <span className="gradient-text italic">Bengaluru Mobility by Yaatra EV</span>
         </motion.h1>
 
         <motion.p 
