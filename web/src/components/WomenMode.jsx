@@ -22,7 +22,7 @@ export default function WomenMode() {
           <div className="glass-panel p-2 rounded-[3rem] border border-glass-border/30 bg-surface-container-lowest/50 backdrop-blur-xl relative z-10">
             <div className="rounded-[2.5rem] overflow-hidden relative aspect-[4/5]">
               <img 
-                src="https://images.unsplash.com/photo-1542204165-65bf26472b9b?q=80&w=2000&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1516728778615-2d590ea1855e?q=80&w=2000&auto=format&fit=crop" 
                 alt="Verified Driver"
                 className="w-full h-full object-cover"
               />
