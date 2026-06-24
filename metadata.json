@@ -1,0 +1,6 @@
+{
+  "name": "VoltRide",
+  "description": "Premium EV Mobility Platform for eco-friendly, fast, and safe ride-hailing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

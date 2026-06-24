@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+body {
+    background-color: #111317;
+    color: #e2e2e8;
+    overflow-x: hidden;
+}
+
+.glass-panel {
+    background: rgba(26, 29, 35, 0.7);
+    backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+}
+
+.electric-glow {
+    box-shadow: 0 0 20px rgba(0, 255, 102, 0.2);
+}
+
+.electric-glow:hover {
+    box-shadow: 0 0 30px rgba(0, 255, 102, 0.4);
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #FFFFFF 0%, #00FF66 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rim-light {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+    animation: float 4s ease-in-out infinite;
+}
