@@ -39,7 +39,7 @@ export default function Navbar() {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8, duration: 0.6 }}
-            className="font-body-md text-primary border-b-2 border-primary pb-1 cursor-pointer"
+            className="font-body-md text-primary hover:text-primary-container transition-colors duration-300 cursor-pointer"
             href="#waitlist"
           >
             Waitlist
