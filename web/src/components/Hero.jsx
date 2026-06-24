@@ -58,10 +58,9 @@ export default function Hero() {
         >
           <div className="absolute inset-0 bg-gradient-to-r from-secondary/5 via-transparent to-secondary/5"></div>
           <div className="relative z-10 flex flex-col items-center">
-            <span className="text-secondary font-bold text-sm uppercase tracking-widest mb-3 inline-block px-4 py-1 rounded-full bg-secondary/10">Limited Time Offer</span>
+            <span className="text-secondary font-bold text-sm uppercase tracking-widest mb-3 inline-block px-4 py-1 rounded-full bg-secondary/10">Early Access</span>
             <p className="text-primary text-xl md:text-2xl font-light leading-snug">
-              Sign up now and receive <span className="font-bold text-secondary">₹500 in ride credits</span> + <br className="hidden md:block" />
-              <span className="font-bold">Exclusive Founder Status</span> upon launch.
+              Sign up now to get updates and receive an <span className="font-bold text-secondary">exciting initial launch offer.</span>
             </p>
           </div>
         </motion.div>
