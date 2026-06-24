@@ -35,15 +35,6 @@ export default function Navbar() {
               {item.label}
             </motion.a>
           ))}
-          <motion.a 
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.8, duration: 0.6 }}
-            className="font-body-md text-primary hover:text-primary-container transition-colors duration-300 cursor-pointer"
-            href="#waitlist"
-          >
-            Waitlist
-          </motion.a>
         </div>
 
         <motion.a 

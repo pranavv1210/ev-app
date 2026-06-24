@@ -14,7 +14,7 @@ export default function Hero() {
   const scale = useTransform(scrollYProgress, [0, 1], [1, 0.9]);
 
   return (
-    <section ref={containerRef} className="relative h-[110vh] flex items-center overflow-hidden bg-surface-container-lowest">
+    <section ref={containerRef} className="relative h-[110vh] flex items-center overflow-hidden bg-slate-50">
       {/* Background Cinematic Lighting */}
       <motion.div style={{ y, opacity, scale }} className="absolute inset-0 z-0 flex items-center justify-center">
         <div className="absolute w-[80vw] h-[80vw] md:w-[40vw] md:h-[40vw] rounded-full bg-primary-container/10 blur-[100px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>

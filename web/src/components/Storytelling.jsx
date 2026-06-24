@@ -10,7 +10,7 @@ export default function Storytelling() {
   });
 
   return (
-    <section id="vision" ref={containerRef} className="py-48 relative bg-surface-container-lowest">
+    <section id="vision" ref={containerRef} className="py-48 relative bg-white">
       <div className="max-w-4xl mx-auto px-margin-mobile text-center">
         <motion.div
           initial={{ opacity: 0, y: 50 }}

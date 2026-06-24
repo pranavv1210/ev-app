@@ -11,7 +11,7 @@ export default function Bengaluru() {
   const y = useTransform(scrollYProgress, [0, 1], ["-20%", "20%"]);
 
   return (
-    <section ref={ref} className="relative h-screen flex items-center justify-center overflow-hidden bg-background">
+    <section ref={ref} className="relative h-screen flex items-center justify-center overflow-hidden bg-blue-50">
       <motion.div style={{ y }} className="absolute inset-0 z-0 opacity-40">
         <img 
           src="https://images.unsplash.com/photo-1596727362302-b8d891c42be8?q=80&w=2000&auto=format&fit=crop" 

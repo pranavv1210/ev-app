@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-surface-container-lowest w-full py-24 border-t border-glass-border/30 relative z-10">
+    <footer className="bg-slate-100 w-full py-24 border-t border-glass-border/30 relative z-10">
       <div className="max-w-container-max mx-auto px-margin-mobile flex flex-col md:flex-row justify-between gap-12">
         <div className="max-w-sm">
           <div className="font-headline-md text-headline-md text-primary font-bold mb-6">YAATRA EV</div>
@@ -11,7 +11,6 @@ export default function Footer() {
             <h4 className="text-primary font-bold mb-6 uppercase text-xs tracking-widest">Platform</h4>
             <ul className="space-y-4 text-sm">
               <li><a className="text-text-secondary hover:text-primary transition-colors" href="#models">Models</a></li>
-              <li><a className="text-text-secondary hover:text-primary transition-colors" href="#women-mode">Women Mode</a></li>
               <li><a className="text-text-secondary hover:text-primary transition-colors" href="#impact">Impact</a></li>
             </ul>
           </div>

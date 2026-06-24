@@ -35,7 +35,7 @@ function Counter({ from, to, duration, label }) {
 
 export default function Impact() {
   return (
-    <section id="impact" className="py-48 relative border-t border-glass-border/30">
+    <section id="impact" className="py-48 relative border-t border-glass-border/30 bg-white">
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-gutter relative z-10">
         <div className="text-center mb-24">
           <motion.h2 

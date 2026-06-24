@@ -6,7 +6,6 @@ import Hero from './components/Hero';
 import Storytelling from './components/Storytelling';
 import VehicleShowcase from './components/VehicleShowcase';
 import Bengaluru from './components/Bengaluru';
-import WomenMode from './components/WomenMode';
 import Impact from './components/Impact';
 import Waitlist from './components/Waitlist';
 import Footer from './components/Footer';
@@ -44,7 +43,6 @@ export default function App() {
       <Storytelling />
       <VehicleShowcase />
       <Bengaluru />
-      <WomenMode />
       <Impact />
       <Waitlist />
       <Footer />

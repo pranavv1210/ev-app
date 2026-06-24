@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Waitlist() {
   return (
-    <section id="waitlist" className="py-48 relative overflow-hidden bg-background">
+    <section id="waitlist" className="py-48 relative overflow-hidden bg-slate-50">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary-container/20 via-background to-background"></div>
       
       <div className="max-w-container-max mx-auto px-margin-mobile md:px-gutter relative z-10">
