@@ -27,22 +27,7 @@ export default function Waitlist() {
               Get exclusive early access to Yaatra EV and experience premium electric mobility before anyone else. Driving cleaner, traveling safer, and shaping a better tomorrow.
             </p>
             
-            <motion.div 
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.3 }}
-              className="bg-background/80 backdrop-blur-md border border-secondary/30 px-6 py-8 md:px-12 rounded-3xl mb-12 shadow-2xl relative overflow-hidden"
-            >
-              <div className="absolute inset-0 bg-gradient-to-r from-secondary/5 via-transparent to-secondary/5"></div>
-              <div className="relative z-10 flex flex-col items-center">
-                <span className="text-secondary font-bold text-sm uppercase tracking-widest mb-3 inline-block px-4 py-1 rounded-full bg-secondary/10">Limited Time Offer</span>
-                <p className="text-primary text-xl md:text-3xl font-light leading-snug">
-                  Sign up now and receive <span className="font-bold text-secondary">₹500 in ride credits</span> + <br className="hidden md:block" />
-                  <span className="font-bold">Exclusive Founder Status</span> upon launch.
-                </p>
-              </div>
-            </motion.div>
+
             
             <a 
               href="https://docs.google.com/forms/d/e/1FAIpQLScU85kgbPmiIvhF3nuTBkpgXawRpTDbzRYWVcJZ0KvLFLEEcg/viewform?usp=publish-editor" 
