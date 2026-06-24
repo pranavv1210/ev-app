@@ -37,8 +37,8 @@ export default function Hero() {
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.4 }}
           className="font-display-lg-mobile md:font-display-lg text-[12vw] md:text-[6vw] leading-[1.1] tracking-tighter text-primary mb-8 max-w-5xl"
         >
-          Help shape the future of <br />
-          <span className="gradient-text italic">Bengaluru Mobility by Yaatra EV</span>
+          The Future of Bengaluru Mobility by <br />
+          <span className="gradient-text italic">Yaatra EV</span>
         </motion.h1>
 
         <motion.p 
@@ -65,23 +65,7 @@ export default function Hero() {
         </motion.div>
       </div>
       
-      {/* Scroll indicator */}
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5, duration: 1 }}
-        style={{ opacity: useTransform(scrollYProgress, [0, 0.1], [1, 0]) }}
-        className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
-      >
-        <span className="text-xs text-text-secondary uppercase tracking-widest">Scroll</span>
-        <div className="w-px h-12 bg-glass-border relative overflow-hidden">
-          <motion.div 
-            animate={{ y: ["-100%", "100%"] }}
-            transition={{ repeat: Infinity, duration: 1.5, ease: "linear" }}
-            className="absolute top-0 w-full h-full bg-primary-container"
-          />
-        </div>
-      </motion.div>
+
     </section>
   );
 }
