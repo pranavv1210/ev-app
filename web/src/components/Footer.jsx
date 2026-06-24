@@ -18,7 +18,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-container-max mx-auto px-margin-mobile mt-16 pt-8 border-t border-glass-border flex flex-col md:flex-row justify-between items-center text-text-secondary text-xs gap-4">
-        <p>© 2024 VoltRide Mobility. Crafted for Bengaluru.</p>
+        <p>© 2026 VoltRide Mobility. Crafted for Bengaluru.</p>
         <div className="flex gap-6">
           <span>Bengaluru Operations</span>
           <span className="text-primary-container">Waitlist Status: OPEN</span>
