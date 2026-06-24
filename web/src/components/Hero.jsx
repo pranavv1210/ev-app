@@ -38,7 +38,7 @@ export default function Hero() {
           className="font-display-lg-mobile md:font-display-lg text-[12vw] md:text-[6vw] leading-[1.1] tracking-tighter text-primary mb-8 max-w-5xl"
         >
           The Future of Bengaluru Mobility by <br />
-          <span className="gradient-text italic">Yaatra EV</span>
+          <span className="gradient-text italic pr-2 md:pr-4">Yaatra EV</span>
         </motion.h1>
 
         <motion.p 
